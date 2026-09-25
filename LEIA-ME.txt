@@ -1,0 +1,31 @@
+BAIXA FÁCIL 1.3.0
+
+Abra pelo atalho Baixa Fácil, na área de trabalho.
+1. Copie o link de um vídeo do YouTube e clique em Colar link.
+2. Para vídeo, escolha MP4 compatível ou Máxima (MKV). Para áudio, use MP3
+   ou Original para manter o som sem conversão.
+3. Clique em Ver qualidades para listar as resoluções disponíveis e escolha a
+   desejada. O arquivo final informa a resolução e os codecs realmente usados.
+4. Clique em Baixar agora. Quando aparecer Concluído, use Abrir pasta.
+
+Você pode alterar a pasta de destino. O aplicativo lembra sua escolha.
+O botão Cancelar interrompe o download; arquivos parciais podem ficar na pasta
+para continuar na próxima tentativa. Links de playlists baixam apenas o vídeo.
+
+Para vídeos públicos, o Baixa Fácil tenta automaticamente três rotas que não
+usam login nem cookies. Ao escolher uma resolução, ele não conclui o download
+em uma resolução menor sem avisar. O botão Detalhes mostra e salva o
+diagnóstico do último download.
+
+Vídeos privados, com idade restrita, removidos ou bloqueados por região só
+podem ser obtidos quando o próprio YouTube autoriza o acesso.
+
+Se o YouTube mudar e os downloads pararem, clique em Atualizar.
+Vídeos privados, removidos, com login obrigatório ou restrições podem não baixar.
+A qualidade depende do material original; converter para MP3 não melhora o áudio.
+
+Mantenha esta pasta no lugar: o atalho aponta para ela.
+Este aplicativo usa o Python e o Node.js já instalados neste computador.
+Motor de download: https://github.com/yt-dlp/yt-dlp
+Conversão de mídia: FFmpeg, incluído por imageio-ffmpeg.
+Dependências e respectivas licenças estão na pasta vendor.

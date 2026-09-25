@@ -1,0 +1,37 @@
+# Dependências instaladas pelo botão "Atualizar" (pip install --target)
+/runtime/
+/runtime-*/
+/vendor/
+/.runtime-*.tmp
+
+# Binário do FFmpeg (~85 MB, vem do imageio-ffmpeg)
+/bin/
+
+# Configuração local da máquina (caminhos pessoais e runtime ativo)
+/settings.json
+/runtime.json
+
+# Logs de download
+/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Downloads parciais ou concluídos
+*.part
+*.ytdl
+*.mp4
+*.mkv
+*.mp3
+*.webm
+*.m4a
+
+# Sistema e editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
