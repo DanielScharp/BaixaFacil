@@ -4,8 +4,7 @@
 /vendor/
 /.runtime-*.tmp
 
-# Binário do FFmpeg (~85 MB, vem do imageio-ffmpeg)
-/bin/
+
 
 # Configuração local da máquina (caminhos pessoais e runtime ativo)
 /settings.json
